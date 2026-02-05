@@ -1,59 +1,172 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Tentu! File `README.md` adalah "wajah" dari proyekmu di GitHub atau saat dikumpulkan ke guru. File ini harus terlihat profesional, menjelaskan cara instalasi, dan fitur-fiturnya.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Berikut adalah draf **README.md** yang sudah saya hias dengan badge, ikon, dan struktur yang rapi. Kamu tinggal menyalinnya.
 
-## About Laravel
+### Langkah-langkah:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. Buat file baru di dalam folder proyek laravelmu bernama `README.md` (pastikan huruf besar semua).
+2. **Copy** kode di bawah ini.
+3. **Paste** ke dalam file tersebut.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+```markdown
+# 🏫 Aplikasi Pengaduan Sarana Sekolah (SaranaCare)
 
-## Learning Laravel
+![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
+![MySQL](https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+> **Project Assignment:** Junior Assistant Programmer - SMK Class XII  
+> **Tema:** Pengembangan Aplikasi Pengaduan Sarana Sekolah dengan Metode Waterfall & MVC.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 📖 Deskripsi Proyek
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Aplikasi ini dirancang untuk memudahkan siswa dalam menyampaikan aspirasi atau laporan kerusakan sarana prasarana sekolah, serta memudahkan admin sekolah dalam mengelola dan menindaklanjuti laporan tersebut secara transparan.
 
-### Premium Partners
+Dibangun menggunakan **Laravel Framework** dengan arsitektur **MVC (Model-View-Controller)** dan antarmuka modern menggunakan **Tailwind CSS**.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 🔥 Fitur Utama
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Sesuai dengan spesifikasi tugas, aplikasi ini memiliki dua peran utama:
 
-## Code of Conduct
+### 🎓 Halaman Siswa (Frontend)
+* ✅ **Input Aspirasi:** Form pengaduan dengan validasi NIS dan kategori.
+* ✅ **Cek Histori:** Pencarian status laporan berdasarkan NIS.
+* ✅ **Real-time Status:** Melihat status (Menunggu/Proses/Selesai) dan feedback dari admin.
+* ✅ **Auto-Register:** Sistem otomatis mengenali/mendaftarkan NIS baru saat melapor.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 👮 Halaman Admin (Backend)
+* ✅ **Dashboard Monitoring:** Melihat seluruh daftar aspirasi yang masuk.
+* ✅ **Filter & Sort:** Data diurutkan dari yang terbaru.
+* ✅ **Manajemen Status:** Mengubah status laporan (Menunggu ➝ Proses ➝ Selesai).
+* ✅ **Feedback System:** Memberikan balasan/tanggapan atas laporan siswa.
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🛠️ Struktur Database (ERD)
 
-## License
+Aplikasi ini menggunakan relasi tabel yang efisien:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+| Tabel | Fungsi |
+| :--- | :--- |
+| `students` | Menyimpan data siswa (NIS, Nama, Kelas). |
+| `categories` | Menyimpan jenis kategori (Kebersihan, Fasilitas, dll). |
+| `aspirations` | Tabel transaksi utama yang menyimpan laporan, lokasi, dan status. |
+
+---
+
+## 🚀 Panduan Instalasi (Localhost)
+
+Ikuti langkah ini untuk menjalankan proyek di komputer Anda (XAMPP).
+
+### 1. Prasyarat
+Pastikan sudah terinstall:
+* PHP >= 8.1
+* Composer
+* XAMPP (MySQL)
+
+### 2. Instalasi
+Buka terminal/CMD di folder proyek:
+
+```bash
+# 1. Install dependensi Laravel
+composer install
+
+# 2. Salin file environment
+copy .env.example .env
+
+# 3. Generate key aplikasi
+php artisan key:generate
+
+```
+
+### 3. Konfigurasi Database
+
+1. Buka **XAMPP Control Panel** -> Start **Apache** & **MySQL**.
+2. Buka `phpMyAdmin` dan buat database baru: `db_pengaduan_sekolah`.
+3. Edit file `.env` di text editor:
+```env
+DB_DATABASE=db_pengaduan_sekolah
+DB_USERNAME=root
+DB_PASSWORD=
+
+```
+
+
+
+### 4. Migrasi & Seeding (PENTING!)
+
+Jalankan perintah ini untuk membuat tabel dan mengisi data awal (Kategori & Siswa Contoh):
+
+```bash
+php artisan migrate:fresh --seed
+
+```
+
+### 5. Jalankan Server
+
+```bash
+php artisan serve
+
+```
+
+Buka browser dan akses: `http://127.0.0.1:8000`
+
+---
+
+## 🧪 Cara Pengujian (Testing)
+
+Gunakan kredensial berikut untuk mendemonstrasikan aplikasi:
+
+### 👤 Akses Siswa
+
+1. Buka Halaman Utama.
+2. Masukkan NIS: **12345** (Data Dummy) atau NIS baru bebas (misal: 1001).
+3. Pilih Kategori & Isi Laporan.
+4. Cek status di menu **"Cek Status"**.
+
+### 🔐 Akses Admin
+
+1. Akses URL: `http://127.0.0.1:8000/admin`
+2. Lihat laporan yang baru masuk.
+3. Ubah status menjadi **"Proses"** atau **"Selesai"**.
+4. Isi kolom feedback, lalu simpan.
+
+---
+
+## 📂 Struktur Folder (MVC)
+
+* `app/Models` -> **M**odel (Student, Aspiration, Category)
+* `resources/views` -> **V**iew (Tampilan Blade & Tailwind)
+* `app/Http/Controllers` -> **C**ontroller (Logika Program)
+
+---
+
+### 👨‍💻 Author
+
+Dibuat oleh: **[Nama Kamu Disini]** Kelas: XII - SMK [Nama Sekolah Kamu]
+
+---
+
+*Dibuat dengan ❤️ menggunakan Laravel 12*
+
+```
+
+---
+
+### Tips Tambahan:
+Jika kamu ingin menambahkan screenshot agar lebih bagus lagi (opsional):
+1.  Screenshot halaman Form, Halaman Admin, dan Halaman History.
+2.  Simpan gambar di folder `public/img`.
+3.  Di `README.md`, tambahkan kode seperti ini:
+    `![Tampilan Form](public/img/screenshot1.png)`
+
+Sekarang proyekmu sudah memiliki dokumentasi yang lengkap dan terlihat sangat profesional! Ada lagi yang bisa saya bantu?
+
+```
