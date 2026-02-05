@@ -1,16 +1,4 @@
-Tentu! File `README.md` adalah "wajah" dari proyekmu di GitHub atau saat dikumpulkan ke guru. File ini harus terlihat profesional, menjelaskan cara instalasi, dan fitur-fiturnya.
 
-Berikut adalah draf **README.md** yang sudah saya hias dengan badge, ikon, dan struktur yang rapi. Kamu tinggal menyalinnya.
-
-### Langkah-langkah:
-
-1. Buat file baru di dalam folder proyek laravelmu bernama `README.md` (pastikan huruf besar semua).
-2. **Copy** kode di bawah ini.
-3. **Paste** ke dalam file tersebut.
-
----
-
-```markdown
 # 🏫 Aplikasi Pengaduan Sarana Sekolah (SaranaCare)
 
 ![Laravel](https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel)
@@ -150,23 +138,10 @@ Gunakan kredensial berikut untuk mendemonstrasikan aplikasi:
 
 ### 👨‍💻 Author
 
-Dibuat oleh: **[Nama Kamu Disini]** Kelas: XII - SMK [Nama Sekolah Kamu]
+Dibuat oleh: **Refan Al-Kholqi** Kelas: XII - SMK Mutiara Bandung
 
 ---
 
 *Dibuat dengan ❤️ menggunakan Laravel 12*
-
-```
-
----
-
-### Tips Tambahan:
-Jika kamu ingin menambahkan screenshot agar lebih bagus lagi (opsional):
-1.  Screenshot halaman Form, Halaman Admin, dan Halaman History.
-2.  Simpan gambar di folder `public/img`.
-3.  Di `README.md`, tambahkan kode seperti ini:
-    `![Tampilan Form](public/img/screenshot1.png)`
-
-Sekarang proyekmu sudah memiliki dokumentasi yang lengkap dan terlihat sangat profesional! Ada lagi yang bisa saya bantu?
 
 ```
